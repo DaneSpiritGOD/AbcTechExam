@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcTechExam", "AbcTechExam\AbcTechExam.csproj", "{613ADF61-4BE8-4B93-A2D9-9BFF4BBABF61}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragDropImages", "DragDropImages\DragDropImages.csproj", "{2E1B7BFC-C7CC-4724-89CA-F5C6E1B9E5DE}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{613ADF61-4BE8-4B93-A2D9-9BFF4BBABF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{613ADF61-4BE8-4B93-A2D9-9BFF4BBABF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{613ADF61-4BE8-4B93-A2D9-9BFF4BBABF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{613ADF61-4BE8-4B93-A2D9-9BFF4BBABF61}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E1B7BFC-C7CC-4724-89CA-F5C6E1B9E5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E1B7BFC-C7CC-4724-89CA-F5C6E1B9E5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E1B7BFC-C7CC-4724-89CA-F5C6E1B9E5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU

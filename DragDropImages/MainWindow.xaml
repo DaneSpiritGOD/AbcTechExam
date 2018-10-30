@@ -15,7 +15,8 @@
       <ColumnDefinition />
     </Grid.ColumnDefinitions>
     <WrapPanel ItemHeight="100"
-               ItemWidth="100">
+               ItemWidth="100"
+               Background="White">
       <local:ImageBox Source="/DragDropImages;component/Images/a.jpg" />
       <local:ImageBox Source="/DragDropImages;component/Images/b.jpg" />
       <local:ImageBox Source="/DragDropImages;component/Images/c.jpg" />
@@ -24,11 +25,15 @@
     <Border Grid.Column="1"
             BorderThickness="1"
             BorderBrush="DarkGray" />
-    <Canvas Grid.Column="2"
-            Background="#FF8F7A7A"
+    <Canvas Name="_canvas"
+            Grid.Column="2"
+            ClipToBounds="True"
+            Background="White"
             AllowDrop="True"
-            DragOver="Canvas_DragOver" 
-            Drop="Canvas_Drop"
-            MouseLeftButtonDown="Canvas_MouseLeftButtonDown"/>
+            DragOver="_canvas_DragOver"
+            Drop="_canvas_Drop"
+            MouseMove="_canvas_MouseMove"
+            MouseLeftButtonDown="_canvas_MouseLeftButtonDown"
+            MouseLeftButtonUp="_canvas_MouseLeftButtonUp" />
   </Grid>
 </Window>
